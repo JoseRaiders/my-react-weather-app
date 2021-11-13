@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
+        <h1>What is today's weather?</h1>
         <Weather />
         <footer>
         <a href="https://github.com/JoseRaiders/my-react-weather-app" target="_blank" rel="noreferrer">Open source on GitHub</a>{" "}
