@@ -7,12 +7,11 @@
 }
 
 .Weather h1 {
-    text-align: left;
     color: #202124;
     font-size: 22px;
     font-weight: 400;
     line-height: 26px;
-    margin: 20px 0 5px;
+    margin: 20px 0 0;
 }
 
 .Weather ul {
@@ -22,26 +21,32 @@
 
 .Weather li {
     list-style: none;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 100;
     line-height: 20px;
 }
 
 .Weather img {
-    margin-right: 6px;
+    height: 64px;
+    width: 64px;
+    display: inline-block;
+    margin-right: 5px;
 }
 
 .Weather .temperature {
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 60px;
-    color: #202124;
-    padding-right: 5px;
-    position: relative;
-    top: 20%;
+  color: #202124;
+  font-size: 64px;
+  line-height: 64px;
+  margin-left: 5px;
+  font-weight: 400;
+  margin-left: 5px;
 }
 
 .Weather .unit {
-    position: relative;
-    top: -12%;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+  margin-left: 2px;
 }

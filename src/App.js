@@ -6,8 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>What is today's weather?</h1>
-        <Weather />
+        <Weather city="Los Angeles" />
         <footer>
         <a href="https://github.com/JoseRaiders/my-react-weather-app" target="_blank" rel="noreferrer">Open source on GitHub</a>{" "}
         coded by <a href="https://jovial-ardinghelli-beabc4.netlify.app/about.html" target="_blank" rel="noreferrer">Anuska Jose</a>.
