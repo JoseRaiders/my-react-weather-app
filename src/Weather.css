@@ -27,8 +27,6 @@
 }
 
 .WeatherData canvas {
-    height: 64px;
-    width: 64px;
     display: inline-block;
     margin-right: 2px;
     margin-left: 5px;
